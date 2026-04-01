@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.FirstDemo">
+      <class name="com.FW.DataDriven">
         <methods>
-          <include name="failTest"/>
-          <include name="skipTest"/>
+          <include name="input"/>
         </methods>
-      </class> <!-- com.testng.FirstDemo -->
+      </class> <!-- com.FW.DataDriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
