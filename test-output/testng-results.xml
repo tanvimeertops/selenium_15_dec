@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-01T09:10:19 IST" name="Default suite" finished-at="2026-04-01T09:11:09 IST" duration-ms="49745">
+  <suite started-at="2026-04-03T08:51:24 IST" name="Default suite" finished-at="2026-04-03T08:51:41 IST" duration-ms="16942">
     <groups>
     </groups>
-    <test started-at="2026-04-01T09:10:19 IST" name="Default test" finished-at="2026-04-01T09:11:09 IST" duration-ms="49745">
-      <class name="com.FW.DataDriven">
-        <test-method signature="input()[pri:0, instance:com.FW.DataDriven@16d04d3d]" started-at="2026-04-01T09:10:19 IST" name="input" finished-at="2026-04-01T09:11:09 IST" duration-ms="49667" status="PASS">
+    <test started-at="2026-04-03T08:51:24 IST" name="Default test" finished-at="2026-04-03T08:51:41 IST" duration-ms="16942">
+      <class name="com.FW.HybirdDriven">
+        <test-method signature="input(java.lang.String,java.lang.String)[pri:0, instance:com.FW.HybirdDriven@59662a0b]" started-at="2026-04-03T08:51:24 IST" name="input" data-provider="tanvi" finished-at="2026-04-03T08:51:32 IST" duration-ms="7806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enter url]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- input -->
-      </class> <!-- com.FW.DataDriven -->
+        <test-method signature="input(java.lang.String,java.lang.String)[pri:0, instance:com.FW.HybirdDriven@59662a0b]" started-at="2026-04-03T08:51:32 IST" name="input" data-provider="tanvi" finished-at="2026-04-03T08:51:34 IST" duration-ms="2101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enter username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+        <test-method signature="input(java.lang.String,java.lang.String)[pri:0, instance:com.FW.HybirdDriven@59662a0b]" started-at="2026-04-03T08:51:34 IST" name="input" data-provider="tanvi" finished-at="2026-04-03T08:51:36 IST" duration-ms="2068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enter password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+        <test-method signature="input(java.lang.String,java.lang.String)[pri:0, instance:com.FW.HybirdDriven@59662a0b]" started-at="2026-04-03T08:51:36 IST" name="input" data-provider="tanvi" finished-at="2026-04-03T08:51:41 IST" duration-ms="4123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[click login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+        <test-method signature="input(java.lang.String,java.lang.String)[pri:0, instance:com.FW.HybirdDriven@59662a0b]" started-at="2026-04-03T08:51:41 IST" name="input" data-provider="tanvi" finished-at="2026-04-03T08:51:41 IST" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[close]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+      </class> <!-- com.FW.HybirdDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

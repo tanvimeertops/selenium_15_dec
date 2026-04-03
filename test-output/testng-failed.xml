@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.FW.DataDriven">
+      <class name="com.FW.KeywordDriven">
         <methods>
-          <include name="input"/>
+          <include name="input" invocation-numbers="2"/>
         </methods>
-      </class> <!-- com.FW.DataDriven -->
+      </class> <!-- com.FW.KeywordDriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
